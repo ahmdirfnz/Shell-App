@@ -8,6 +8,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:text="Testing Text App"
+        android:gravity="center_horizontal"
+        android:textSize="36sp" />
+
     <EditText
         android:id="@+id/Text"
         android:layout_width="match_parent"
@@ -26,13 +35,5 @@
         android:text="Click Here"
         android:layout_gravity="center"
         />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:text="Testing Text App"
-        android:gravity="center_horizontal"
-        android:textSize="36sp"/>
 
 </LinearLayout>
