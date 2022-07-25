@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onInit(int i) {
                 if (i != TextToSpeech.ERROR) {
-                    textToSpeech.setLanguage(Locale.UK);
+                    textToSpeech.setLanguage(Locale.getDefault());
                 }
             }
         });
